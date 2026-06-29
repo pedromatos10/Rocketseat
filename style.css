@@ -48,7 +48,6 @@ body * {
 }
 #profile img {
   width: 112px;
-  margin: auto;
 }
 
 #profile p {
@@ -127,6 +126,7 @@ ul li a {
   transition: background 0.2s;
 }
 
+/* pseudo-selector */
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
@@ -151,7 +151,6 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-  padding: 16px;
 }
 
 footer {
